@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prodcuto</title>
+    <title>Producto</title>
     <link rel="stylesheet" href="./CSS/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,11 +25,34 @@
     </nav> <!-- .navegacion -->
 
     <main class="contenedor">
-        <h1>Prodcuto</h1>
+        <h1>React JS</h1>
+
+        <div class="camisa">
+            <img src="IMG/3.jpg" alt="Imagen del producto" class="camisa__imagen">
+        </div> <!-- .camisa -->
     </main>
 
     <footer class="footer">
         <p class="footer__texto">FRONTEND STORE - Todos los derechos reservados. 2023</p>
+
+        <div class="camisa__contenido">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet voluptate omnis soluta error rem,
+            perspiciatis qui sunt molestias dignissimos impedit tenetur neque necessitatibus voluptates ratione
+            provident ea deleniti aperiam nobis!
+
+            <form class="formulario">
+                <select>
+                    <option disabled selected>-- Seleccionar talla --</option>
+                    <option value="">Pequeña</option>
+                    <option value="">Mediana</option>
+                    <option value="">Grande</option>
+                </select>
+
+                <input type="number" placeholder="Cantidad" min="1">
+
+                <input type="submit" value="Agregar al carrito">
+            </form> <!-- .formulario -->
+        </div> <!-- .camisa__contenido-->
     </footer> <!-- .footer -->
 </body>
 
